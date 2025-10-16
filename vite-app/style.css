@@ -1,0 +1,13 @@
+.card {
+  background-color: gold;
+  color: red;
+  border: 2px solid green;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
