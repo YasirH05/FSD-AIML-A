@@ -50,7 +50,7 @@ if __name__ == "__main__":
     ]
 
     stats_list = []
-    for owner, repo in repos_to_track:
+    for owner, repo in  repos_to_track:
         data = fetch_repo_stats(owner, repo)
         if data:
             stats_list.append(data)
