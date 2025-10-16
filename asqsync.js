@@ -4,7 +4,7 @@ import datetime
 GITHUB_API_URL = "https://api.github.com"
 
 def fetch_repo_stats(owner: str, repo: str):
-    """Fetch basic stats of a GitHub repository."""
+    """Fetch basic  stats of a GitHub repository."""
     url = f"{GITHUB_API_URL}/repos/{owner}/{repo}"
     response = requests.get(url)
 
