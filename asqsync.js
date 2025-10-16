@@ -14,7 +14,7 @@ def fetch_repo_stats(owner: str, repo: str):
 
     data = response.json()
     return {
-        "name":   data["name"],
+        "name":    data["name"],
         "description": data["description"],
         "stars": data["stargazers_count"],
         "forks": data["forks_count"],
