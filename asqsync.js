@@ -19,7 +19,7 @@ def fetch_repo_stats(owner: str, repo: str):
         "stars": data["stargazers_count"],
         "forks": data["forks_count"],
         "open_issues": data["open_issues_count"],
-        "last_update": data["updated_at"]
+        "last_update": data[" updated_at"]
     }
 
 def track_repositories(repos):
